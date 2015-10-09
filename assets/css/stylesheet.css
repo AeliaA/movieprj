@@ -1,0 +1,287 @@
+/*Normal Body Styling--------------*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	/*font-family: 'Handlee', cursive, Arial, serif;
+	font-family: 'Patrick Hand', cursive;
+	font-family: 'Itim', cursive;*/
+	font-family: 'Overlock', cursive;
+	font-size: 18px;
+}
+footer{
+	font-size:10px;
+	color:white;
+	background: black;
+}
+
+li {
+	list-style-type: none;
+}
+
+/*Class Styling--------------*/
+.wrapper h1{
+	position:absolute;
+	left: -9999em;
+}
+.pg1sec1{
+	background: url("../images/pg1sec1bkg1_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg1sec2{
+	background: url("../images/pg1sec2bkg2_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg1sec3{
+	background: url("../images/pg1sec3bkg3_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg1sec4{
+	background: url("../images/pg1sec4bkg4_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg2sec1{
+	background: url("../images/pg2sec1bkg1_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg2sec2{
+	background: url("../images/pg2sec2bkg2_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+.pg2sec3{
+	background: url("../images/pg2sec3bkg3_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+#pg3bkg3{
+	background: url("../images/pg3bkg3_web.jpg") center;
+	background-size: cover;
+	max-width: 100%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+.pg3sec1{
+
+}
+.pg3sec2{
+	
+}
+.pg3sec3{
+	
+}
+.whitetext{
+	color:white;	
+}
+.lineheight{
+	line-height:1.5;
+}
+.padding1{
+	padding: 25px;
+}
+.padding2{
+	padding:14px;
+}
+.padding3{
+	padding: 0 0 75px 0;
+}
+.center{
+	margin:0 auto;
+	display: block;
+	text-align: center;
+}
+.trailervid1{
+	margin: 0 auto; 
+	width: 350px;
+	height: 250px;
+	text-align: right;
+	display:block;
+}
+.traileraud1{
+	margin: 0 auto; 
+	width: 300px;
+	height: 200px;
+	text-align: right;
+	display:block;
+}
+.buttonlike{
+	color:green;
+	font-size: 20px;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 25px;
+	border: 1px solid #aaffcc;
+	box-shadow: 0 -1px 0 #aaffcc inset;
+	min-width: 10%;
+	border-width: 2px 3px;
+}
+.buttonlike:hover{
+	color:green;
+	background-color: black;
+}
+.dot{
+	font-size:80px;
+	text-decoration:none;
+	color:#55ffee;
+	display:block;
+}
+.dot:hover{
+	color:#0000ff;
+}
+.imagelink{
+	display:flex;
+	justify-content: flex-end;
+	align-items:right;
+}
+.opaquecoloralign{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:left;
+	margin:0 5px 0 10px;
+}
+.opaquebkg1{
+	color: #002d06;
+	background-color:#98fece;
+	opacity: 0.5;
+	border-radius: 50px;
+	width:50%;
+	padding: 5px 5px 5px 10px;
+	margin:15px 0 50px 15px;
+}
+.opaquebkg2{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 24px;
+	color: white;
+	line-height: 2.0;
+	background-color:green;
+	border-radius: 25px;
+	width:55%;
+	padding: 8px 8px 8px 15px;
+	margin:5px 5px 5px 15px;
+}
+.buttonsalign{
+	display:flex;
+	display: -webkit-flex;
+}
+
+.buttonalign{
+	align-self: flex-end;
+}
+.textboxalign{
+	display:flex;
+	display: -webkit-flex;
+}
+
+.textalign{
+	align-content: flex-start;
+}
+#exp-exp{
+	display: flex;
+	align-items: flex-end;
+}
+/*--------------MEDIA QUERIES--------------*/
+
+@media (min-width: 600px) {
+body{
+	font-size: 22px;
+}
+.lineheight{
+	line-height:1.6;
+}
+.padding1{
+	padding: 30px;
+}
+.padding3{
+	padding: 0 0 65px 0;
+}
+ .trailervid1{
+	width: 500px;
+	height: 400px;
+	}
+.traileraud1{
+	width: 500px;
+	}
+.opaquebkg1{
+	padding: 5px 5px 5px 10px;
+	margin: 15px 0 85px 15px;
+}
+}
+@media (min-width: 900px) {
+body{
+	font-size: 26px;
+}
+.lineheight{
+	line-height:1.7;
+}
+.padding1{
+	padding: 35px;
+}
+.padding3{
+	padding: 0 0 55px 0;
+}
+ .trailervid1{
+	width: 700px;
+	height: 400px;
+	}
+.traileraud1{
+	width: 700px;
+	}
+.opaquebkg1{
+	padding: 5px 5px 5px 10px;
+	margin: 25px 0 100px 25px;
+}
+}
+@media (min-width: 1200px) {
+body{
+	font-size: 30px;
+}
+.lineheight{
+	line-height:1.8;
+}
+.padding1{
+	padding: 35px;
+}
+.padding3{
+	padding: 0 0 45px 0;
+}
+ .trailervid1{
+	width: 1000px;
+	height: 400px;
+	}
+.traileraud1{
+	width: 1000px;
+	}
+.opaquebkg1{
+	padding: 5px 5px 5px 10px;
+	margin: 35px 0 125px 35px;
+}
+}
+
+
+
+
+
+
+
